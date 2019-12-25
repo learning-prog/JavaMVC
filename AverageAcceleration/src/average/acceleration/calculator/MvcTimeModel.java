@@ -11,6 +11,11 @@ public class MvcTimeModel {
 	private int startTime;
 	private int endTime;
 	
+	// POJO constructor
+	public MvcTimeModel() {
+		
+	}
+	
 	// to set user inputs for start time
 	public void setStartTime(int startTim) {
 		this.startTime = startTim;

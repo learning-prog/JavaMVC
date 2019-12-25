@@ -14,6 +14,11 @@ public class MvcAverageAccelerationView {
 	MvcVelocityModel oMvcVelocityModel = new MvcVelocityModel();
 	MvcTimeModel oMvcTimeModel = new MvcTimeModel();
 	
+	// POJO constructor
+	public MvcAverageAccelerationView() {
+		
+	}
+	
 	// to take user inputs for start velocity
 	public void toSetStartVelocity() {
 		Scanner sc = new Scanner(System.in);

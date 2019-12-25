@@ -8,6 +8,11 @@
 package average.acceleration.calculator;
 
 public class MvcAverageAccelerationController {
+	// POJO constructor
+	public MvcAverageAccelerationController() {
+		
+	}
+	
 	// to compute average acceleration value
 	public double toComputeAverageAcceleration(MvcAverageAccelerationView oMvcAverageAccelerationView) {
 		double result = (oMvcAverageAccelerationView.toGetEndVelocity() - 

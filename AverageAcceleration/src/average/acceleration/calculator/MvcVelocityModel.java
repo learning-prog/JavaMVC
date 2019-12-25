@@ -11,6 +11,11 @@ public class MvcVelocityModel {
 	private double startVelocity;
 	private double endVelocity;
 	
+	// POJO constuctor
+	public MvcVelocityModel() {
+		
+	}
+	
 	// to set user inputs for start velocity
 	public void setStartVelocity(double startVel) {
 		this.startVelocity = startVel;
