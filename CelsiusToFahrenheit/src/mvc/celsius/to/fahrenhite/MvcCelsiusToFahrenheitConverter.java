@@ -8,6 +8,11 @@
 package mvc.celsius.to.fahrenhite;
 
 public class MvcCelsiusToFahrenheitConverter {	
+	// POJO constructor
+	public MvcCelsiusToFahrenheitConverter() {
+		
+	}
+	
 	// convert celsius into fahrenheit
 	public double toConvertMvcCelsiusToFahrenheit(MvcCelsiusToFahrenheitView oMvcCelsiusToFahrenheitView) {
 		double res;

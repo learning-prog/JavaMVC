@@ -14,6 +14,11 @@ public class MvcCelsiusToFahrenheitView {
 	// instantiation
 	MvcCelsiusModel oMvcCelsiusModel = new MvcCelsiusModel();
 	
+	// POJO constructor
+	public MvcCelsiusToFahrenheitView() {
+		
+	}
+	
 	// to set/store celsius input data
 	public void toSetMvcCelsiusView() {
 		Scanner sc = new Scanner(System.in);

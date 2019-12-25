@@ -10,6 +10,11 @@ public class MvcCelsiusModel {
 	// Class variable : celsius data
 	private double celsiusValue;
 	
+	// POJO constructor
+	public MvcCelsiusModel() {
+		
+	}
+	
 	// to set/store celsius input data
 	public void setCelsiusValue(double celsius) {
 		this.celsiusValue = celsius;
