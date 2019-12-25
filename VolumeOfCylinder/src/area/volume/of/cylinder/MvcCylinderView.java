@@ -15,6 +15,10 @@ public class MvcCylinderView {
 	MvcLengthModel oMvcLengthModel = new MvcLengthModel();
 	Scanner sc = new Scanner(System.in);
 	
+	// POJO constructor
+	public MvcCylinderView() {
+		
+	}
 	
 	// to read user input for radius of cylinder
 	public void readRadiusOfCylinder() {

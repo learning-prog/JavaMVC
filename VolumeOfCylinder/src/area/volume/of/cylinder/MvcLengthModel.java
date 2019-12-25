@@ -10,6 +10,11 @@ public class MvcLengthModel {
 	// class variable
 	private double lengthOfCylinder;
 	
+	// POJO constructor
+	public MvcLengthModel() {
+		
+	}
+	
 	// to set the length of cylinder
 	public void setLengthOfCylinder(double length) {
 		this.lengthOfCylinder = length;

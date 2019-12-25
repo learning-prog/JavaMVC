@@ -10,6 +10,11 @@ public class MvcCylinderController {
 	// class variable
 	private double area; 
 	
+	// POJO constructor
+	public MvcCylinderController() {
+		
+	}
+	
 	// to calculate area of cylinder
 	public double toCalculateAreaOfCylinder(MvcCylinderView oMvcCylinderView) {
 		area = oMvcCylinderView.getRadiusOfCylinder()*oMvcCylinderView.getRadiusOfCylinder()*Math.PI;

@@ -10,6 +10,11 @@ public class MvcRadiusModel {
 	// Class variable
 	private double radiusOfCylinder;
 	
+	// POJO constructor
+	public MvcRadiusModel() {
+		
+	}
+	
 	// to set value for radius of circle
 	public void setRadiusOfCylinder(double radius) {
 		this.radiusOfCylinder = radius;
