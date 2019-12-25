@@ -11,6 +11,11 @@
 package integer.digits.summation;
 
 public class MvcSumOfIntegerDigitsController {
+	// POJO constructor
+	public MvcSumOfIntegerDigitsController() {
+		
+	}
+	
 	// to add all digits of integer variable
 	public int toAddValueOfIntegerDigits(MvcIntegerInputOutputView oMvcIntegerInputOutputView) {
 		int mInteger = oMvcIntegerInputOutputView.toGetIntegerInputValue();

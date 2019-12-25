@@ -13,6 +13,11 @@ public class MvcIntegerInputOutputView {
 	// instantiation
 	MvcIntegerInputModel oMvcIntegerInputModel = new MvcIntegerInputModel();
 	
+	// POJO constructor
+	public MvcIntegerInputOutputView() {
+		
+	}
+	
 	// to set integer input value
 	public void toSetIntegerInputValue() {
 		Scanner sc = new Scanner(System.in);

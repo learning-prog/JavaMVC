@@ -10,6 +10,11 @@ public class MvcIntegerInputModel {
 	// class variable
 	private int integerValue;
 	
+	// POJO constructor
+	public MvcIntegerInputModel() {
+		
+	}
+	
 	// set the value for integer variable
 	public void setIntegerValue(int newIntValue) {
 		this.integerValue = newIntValue;
