@@ -4,3 +4,4 @@
 2. VolumeOfCylinder  
 3. FeetToMeeter
 4. AverageAcceleration
+5. SumTheDigitsOfInteger
