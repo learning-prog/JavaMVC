@@ -13,6 +13,11 @@ public class MvcFeetToMeeterView {
 	// instantiation
 	MvcFeetModel oMvcFeetModel = new MvcFeetModel();
 	
+	// POJO constructor
+	public MvcFeetToMeeterView() {
+		
+	}
+	
 	// to read the feet value from console
 	public void toSetFeetValue() {
 		Scanner sc = new Scanner(System.in);

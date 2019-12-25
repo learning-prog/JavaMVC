@@ -10,6 +10,11 @@ public class MvcFeetModel {
 	// class variable
 	private double feetValue;
 	
+	// POJO constructor
+	public MvcFeetModel() {
+		
+	}
+	
 	// to take user input for feet variable
 	public void setFeetValue(double feet) {
 		this.feetValue = feet;
